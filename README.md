@@ -1,0 +1,81 @@
+<h1>simple lyric player</h1>
+<h3>v1.0.0</h3>
+<ol>
+<li>bookmark this
+    <a href="javascript:(function(){function lf(filename,filetype){var fileref;if((filetype||filename.substr(-2,2))==='js'){fileref=document.createElement('script');fileref.setAttribute('type','text/javascript');fileref.setAttribute('src',filename)}if((filetype||filename.substr(-3,3))==='css'){fileref=document.createElement('link');fileref.setAttribute('rel','stylesheet');fileref.setAttribute('type','text/css');fileref.setAttribute('href',filename)}if(typeof fileref!='undefined'){document.getElementsByTagName('head')[0].appendChild(fileref)}}lf('http://xingxingwoo.com/slp/slp.css');lf('http://xingxingwoo.com/slp/slp.js');})();">SLPlayer</a> in toolbar!
+</li>
+<li>get SRT from
+    <a href="http://shooter.cn/xml/sub/170/170051.xml">shooter.cn</a> or some other sites(eg. subhd.com), unzip and get txt file content;
+</li>
+<li>visit
+    <a href="http://apexvid.com/q83qn1ke5dom">Stargate Universe S02E16</a> online ~~Flash~~Video Player or some other VOD sites;
+</li>
+<li>click the bookmark, wait till *slp* loaded, paste srt txt into [SRT!], click [Play] and other controllers to sync timeline, then ENJOY!
+</li>
+</ol>
+<p>SRT sample: </p>
+<textarea cols="70" rows="10">
+1
+00:00:02,207 --> 00:00:03,806
+我也许找到突破口了
+I may be on the verge
+
+2
+00:00:03,875 --> 00:00:06,944
+就快发现命运号的使命的真正含义
+of discovering the true nature of Destiny's mission.
+
+3
+00:00:08,021 --> 00:00:11,824
+这么久以来你一直能控制整个飞船的啊?
+You've had control of this ship the whole time!
+
+4
+00:00:11,825 --> 00:00:12,891
+为什么你不告诉大家?
+Why wouldn't you tell anyone?
+
+5
+00:00:12,892 --> 00:00:15,928
+Lucian联盟正在计划要攻击地球
+The Lucian Alliance is planning an attack on Earth.
+
+6
+00:00:15,929 --> 00:00:17,362
+是我杀了Riley
+I killed Riley.
+
+7
+00:00:17,363 --> 00:00:19,565
+我用自己这双手亲手捂死了他
+I suffocated him with my own hands.
+
+8
+00:00:19,566 --> 00:00:21,600
+您是一位很优秀的指挥官
+You are a good commander.
+
+9
+00:00:21,601 --> 00:00:24,870
+没有什么使命比带这些人回家更重要
+There is no mission other than getting these people home.
+
+10
+00:00:24,871 --> 00:00:26,505
+它从不是要带我们回家的
+It was never about going home.
+
+11
+00:00:26,506 --> 00:00:28,340
+而是要带我们驶向命中注定该去的地方
+It's about getting us to where we're going.
+
+12
+00:00:28,341 --> 00:00:30,576
+这就是它的使命
+That is the mission.
+
+</textarea>
+<p>
+    old <a href="./slp.htm">DEMO</a> page.
+</p>
