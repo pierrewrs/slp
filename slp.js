@@ -238,14 +238,14 @@ var loadSrtLyric = function(){
 		}
 		clearInterval(dlTmr);
 		// callback of loadSrtLyric
-		$.getScript('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js', loadSrtLyric);
+		$.getScript('https://code.jquery.com/ui/1.8.24/jquery-ui.min.js', loadSrtLyric);
 	};
 	var dlTmrCbk = function(){
 			dlCbk(window.jQuery);
 	};
 	var dlJS = function(d, l, c){
 		var j = d.createElement('script');
-		j.src = l || 'http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js';
+		j.src = l || 'https://code.jquery.com/jquery-1.12.4.min.js';
 		j.id = 'dlJS' + new Date().getTime();
 		j.charset = 'utf-8';
 		j.onload = c || dlTmrCbk;
