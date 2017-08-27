@@ -1,6 +1,6 @@
 /**
  * SRT LYRIC PLAYER
- * based on jQuery v1.12.4 & jQuery UI 1.8.24
+ * based on jQuery v1.12.4 & jQuery UI 1.12.1
  * @name slp.js
  * @author XingxingWoo
  * @version v1.0
@@ -238,7 +238,7 @@ var loadSrtLyric = function(){
 		}
 		clearInterval(dlTmr);
 		// callback of loadSrtLyric
-		$.getScript('https://code.jquery.com/ui/1.8.24/jquery-ui.min.js', loadSrtLyric);
+		$.getScript('https://code.jquery.com/ui/1.12.1/jquery-ui.min.js', loadSrtLyric);
 	};
 	var dlTmrCbk = function(){
 			dlCbk(window.jQuery);
