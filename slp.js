@@ -1,19 +1,19 @@
 /**
  * SRT LYRIC PLAYER
- * based on jQuery v1.5.2 & jQuery UI 1.8.11
+ * based on jQuery v1.12.4 & jQuery UI 1.8.24
  * @name slp.js
  * @author XingxingWoo
  * @version v1.0
- * @date last modified on 2011-4-18
+ * @date last modified on 2017-8-27
  * @comment
  * Released with the MIT License: http://www.opensource.org/licenses/mit-license.php
  */
 var loadSrtLyric = function(){
 	var SrtLyric = function($){
-		if ($.browser.msie) {
-			alert('Sorry! But this script is not for IE!!');
-			return false;
-		}
+// 		if ($.browser.msie) { // deprecated after jquery@1.9
+// 			alert('Sorry! But this script is not for IE!!');
+// 			return false;
+// 		}
 		if (!$('#srtDiv').length) {
 			$(document.body).append('<div id="srtDiv"></div>');
 		}
