@@ -182,7 +182,7 @@ var loadSrtLyric = function(){
 			$('#srtDashboard').fadeOut();
 		};
 		this.srtScrollObserver = function(event){
-			var direct = (event.detail && -event.detail || event.wheelDelta) > 0 ? 1 : -1;
+			var direct = (event.detail && -event.detail || event.wheelDelta || event.originalEvent.wheelDelta) > 0 ? 1 : -1;
 			if (!event.altKey && !event.ctrlKey && event.shiftKey) {
 				o._srtScrollZoom(direct);
 			}
